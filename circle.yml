@@ -11,4 +11,4 @@ dependencies:
 ## Customize test commands
 test:
   override:
-    - python nose Tests\test_Calculator.py
+    - python -m nose Tests\test_Calculator.py
