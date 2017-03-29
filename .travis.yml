@@ -2,4 +2,4 @@ language: python
 python:
     - "3.6"
 script:
-    - python -m testunit Tests\test_Calculator.py
+    - nosetests Tests/test_Calculator.py
