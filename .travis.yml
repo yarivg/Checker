@@ -2,4 +2,4 @@ language: python
 python:
     - "3.6"
 script:
-    Tests/test_Calculator
+    - python -m testunit Tests\test_Calculator.py
