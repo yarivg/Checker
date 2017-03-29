@@ -1,0 +1,8 @@
+machine:
+  python:
+    version: 2.7.5
+
+## Customize test commands
+test:
+  override:
+    - python -m testunit Tests\test_Calculator.py
