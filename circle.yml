@@ -1,0 +1,14 @@
+## Customize the test machine
+machine:
+  python:
+    version: 3.6.0
+
+## Customize dependencies
+dependencies:
+  override:
+    - pip install -r requirements.txt
+
+## Customize test commands
+test:
+  override:
+    - nosetests Tests/test_Calculator.py

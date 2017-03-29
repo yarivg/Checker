@@ -10,5 +10,13 @@ class Calculator():
     def sub(self, x, y):
         return x - y
 
+    def div(self, x, y):
+        try:
+            division = x / y
+        except ZeroDivisionError:
+            raise ZeroDivisionError("No division by 0!")
+
+        return division
+
 if __name__ == "__main__":
     main()
